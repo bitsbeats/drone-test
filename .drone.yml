@@ -1,0 +1,8 @@
+kind: pipeline
+name: test
+
+steps:
+  - name: env
+    image: busybox
+    commands:
+      - env
