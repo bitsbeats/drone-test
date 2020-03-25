@@ -6,3 +6,4 @@ steps:
     image: busybox
     commands:
       - env
+      - sleep 3600
