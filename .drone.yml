@@ -3,7 +3,7 @@ name: test
 
 steps:
   - name: env
-    image: busybox
+    image: alpine
     commands:
       - env
       - sleep 3600
