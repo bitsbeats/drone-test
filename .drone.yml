@@ -6,4 +6,3 @@ steps:
     image: alpine
     commands:
       - env
-      - sleep 3600
