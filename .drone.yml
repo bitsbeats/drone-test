@@ -4,5 +4,8 @@ name: test
 steps:
   - name: env
     image: alpine
+    environment:
+      sectest:
+        from_secret: sectest
     commands:
       - env
